@@ -2,7 +2,7 @@
 # 1 - Librairie ====
 # . -------------------------------------------------------------------------- =============
 
-pkgs <-  c("dplyr","tidyverse","concaveman","gganimate", "mapview", "ggplot2", "raster","sf", "tmap", "gifski") # "rgdal", "tidyr", "tiff"
+pkgs <-  c("dplyr","tidyverse","concaveman","ggplot2","sf") # "gganimate", "mapview", "tmap", "gifski", "raster"
 
 if (length(setdiff(pkgs, rownames(installed.packages()))) > 0) {
   # installation des packages 
